@@ -2,6 +2,15 @@
 /build/
 .gradle/
 
+
+#build
+macos
+linux
+web
+windows
+ios
+android
+
 # iOS build/ and .xcodeproj/
 ios/Pods/
 ios/.symlinks/
