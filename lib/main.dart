@@ -1,3 +1,4 @@
+import 'package:eco_friendly_habit_tracker/screens/add_habit_screen.dart';
 import 'package:eco_friendly_habit_tracker/screens/home_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -7,7 +8,8 @@ void main() {
     initialRoute: '/',
     routes: {
       '/': (context) => HomeScreen(),
-      // Add routes for other screens like AddHabitScreen, TipsScreen, CommunityScreen
+      '/addHabit': (context) => AddHabitScreen(),
+      
     },
   ));
 }

@@ -1,0 +1,120 @@
+# Android build/ and .gradle/
+/build/
+.gradle/
+
+
+#build
+macos
+linux
+web
+windows
+ios
+android
+
+# iOS build/ and .xcodeproj/
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/.last_build_id
+ios/Flutter/Flutter.framework/
+ios/Flutter/Flutter.podspec
+ios/Flutter/FlutterPluginRegistrant/
+ios/Flutter/flutter_export_environment.sh
+ios/Flutter/flutter_project.pbxproj
+ios/Flutter/Generated.xcconfig
+ios/Flutter/App.framework/
+ios/Flutter/App.podspec
+ios/Flutter/Flutter.pch
+ios/Flutter/Flutter-Debug.xcconfig
+ios/Flutter/Flutter-Release.xcconfig
+ios/Flutter/flutter_assets/
+
+# macOS build/ and .xcodeproj/
+macos/Flutter/Flutter.xcworkspace/
+macos/Flutter/.last_build_id
+macos/Flutter/Flutter.framework/
+macos/Flutter/Flutter.podspec
+macos/Flutter/FlutterPluginRegistrant/
+macos/Flutter/flutter_export_environment.sh
+macos/Flutter/flutter_project.pbxproj
+macos/Flutter/Generated.xcconfig
+macos/Flutter/App.framework/
+macos/Flutter/App.podspec
+macos/Flutter/Flutter.pch
+macos/Flutter/Flutter-Debug.xcconfig
+macos/Flutter/Flutter-Release.xcconfig
+macos/Flutter/flutter_assets/
+
+# Xcode
+*.xcuserstate
+*.xcworkspace
+*.pbxproj
+.DS_Store
+
+# IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# VSCode
+.vscode/
+
+# Android Studio
+/.gradle/
+/.idea/
+/*.iml
+/*.ipr
+/*.iws
+
+# Flutter create
+/bin/
+/cache/
+/flutter/
+/packages/
+.pub-cache/
+
+# Android
+*.iml
+/local.properties
+/.gradle
+/captures/
+/build/
+
+# iOS
+Pods/
+*.xcworkspace
+*.xcuserdatad
+*.xcuserdata
+DerivedData/
+.idea/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xccheckout
+*.moved-aside
+
+# Other
+*.log
+*.log.*
+*.stackdump
+*.exe
+*.dll
+*.so
+*.o
+*.a
+*.lib
+*.pyc
+*.pyo
+*.rej
+*.pyc
+*.pyd
+*.class
+*.swp
+*.lock
+*.DS_Store
+*.sublime-workspace
+*.sublime-project
+Thumbs.db
+ehthumbs.db
+Icon?
