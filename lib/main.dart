@@ -1,3 +1,4 @@
+import 'package:eco_friendly_habit_tracker/screens/achievement_screen.dart';
 import 'package:eco_friendly_habit_tracker/screens/add_habit_screen.dart';
 import 'package:eco_friendly_habit_tracker/screens/home_screen.dart';
 import 'package:flutter/material.dart';
@@ -9,7 +10,7 @@ void main() {
     routes: {
       '/': (context) => HomeScreen(),
       '/addHabit': (context) => AddHabitScreen(),
-      
+      '/achiviements': (context) => AchievementsScreen(),
     },
   ));
 }
